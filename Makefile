@@ -4,6 +4,9 @@ install: deps-install
 run:
 	node gendiff.js
 
+run-help:
+	node gendiff.js -h
+
 deps-install:
 	npm ci
 
